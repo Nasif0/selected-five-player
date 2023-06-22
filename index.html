@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <title>Paris Players</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+<header>
+     <section >
+<div class="flex">
+    
+<div  class="player-banner mt-16 ms-20 ">
+
+     
+     
+     <img id="messi-image" class=" players-img w-96 ms-24  " src="image/messi.png" alt="" srcset="">
+     
+     <img id="neymar-image" class="mx- ms-28 players-img  " src="" alt="" srcset="">
+     <img id="mbappe-image" class="players-img w-96 ms-24  " src="" alt="" srcset="">
+     <img id="soler-image" class="players-img w-96 ms-24  " src="" alt="" srcset="">
+     <img id="renato-image" class="players-img w-96 ms-24  " src="" alt="" srcset="">
+     <img id="vitinha-image" class="players-img w-96 ms-24  " src="" alt="" srcset="">
+    
+     
+
+
+
+
+</div>
+                    
+<div class="mt-10 ms-11">
+<div class="grid grid-rows-6 grid-flow-col gap-6 ">
+     <div id="messi-change-button" class="transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 flex w-80 background-colour">
+          <img  class="w-12" src="image/card-messi.png" alt="" srcset="">
+          <div class="ms-3">
+               <h1 class="font-bold text-white">Lionel Messi</h1>
+               <p class="text-xs text-white">Born: June 24, 1987 (age 35 years), Rosario, Argentina</p>
+               
+          </div>
+     </div>
+
+     <div  id="neymar-change-button" class="transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 flex w-80 background-colour" >
+          
+               <img class="w-12" src="image/card-neymar.png" alt="" srcset="">
+               <div class="ms-3">
+                    <h1 class="font-bold text-white">Neymar Júnio</h1>
+               <p class="text-xs text-white">Born: February 5, 1992 (age 31 years), Mogi das Cruzes, State of São Paulo, Brazil</p>
+               
+               
+          </div>
+     </div>
+
+     <div id="mbappe-change-button" class="transition ease-in-out duration-150 bg-black  hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 flex w-80 background-colour" >
+          
+          <img class="w-12" src="image/card-mbappe.png" alt="" srcset="">
+          <div class="ms-3">
+               <h1 class="font-bold text-white">Kylian Mbappé</h1>
+          <p class="text-xs text-white" >Born: February 5, 1992 (age 31 years), Mogi das Cruzes, State of São Paulo, Brazil</p>
+          
+     </div>
+</div>
+
+<div id="soler-change-button" class="transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 flex w-80 background-colour" >
+          
+     <img class="w-12" src="image/card-soler.png" alt="" srcset="">
+     <div class="ms-3">
+          <h1 class="font-bold text-white">Carlos Soler</h1>
+          <p class="text-xs text-white">Born: February 5, 1992 (age 31 years), Mogi das Cruzes, State of São Paulo, Brazil</p>
+     
+     
+</div>
+</div>
+
+<div id="renato-change-button" class="transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 flex w-80 background-colour" >
+          
+     <img class="w-12" src="image/card-renato.png" alt="" srcset="">
+     <div class="ms-3">
+          <h1 class="font-bold text-white">Renato Sanches</h1>
+          <p class="text-xs text-white"> Born: February 5, 1992 (age 31 years), Mogi das Cruzes, State of São Paulo, Brazil</p>
+     
+     
+</div>
+</div>
+
+<div id="vitinha-change-button" class="transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 flex w-80 background-colour" >
+          
+     <img class="w-12" src="image/card-vitinha.png" alt="" srcset="">
+     <div class="ms-3">
+          <h1 class="font-bold text-white">Vitinha</h1>
+          <p class="text-xs text-white">Born: February 5, 1992 (age 31 years), Mogi das Cruzes, State of São Paulo, Brazil</p>
+     
+     
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+     </section>
+</header>
+
+<main>
+<section>
+<div class="p-20 flex">
+     <div class="grid grid-rows-2 grid-flow-col gap-5">
+          <div class="bg-black w-48 h-72 border border-gray-800 transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300">
+               <div class="bg-white">
+                    <img class="w-24 ms-8" src="image/card-messi.png" alt="" srcset="">
+               </div>
+               <div  class="text-white text-center mt-10">
+               <h1  value="lionel Messi" >Lionel Messi</h1>
+               <h1 class="text-gray-500">36 Goal . 46 Assist</h1>
+               <button onclick="getElementById('demo-messi').innerHTML= 'Lionel Messi' " id="select-messi" class="rounded-none button-selected w-24">Selected</button>
+               
+               </div>     
+                </div> 
+
+                <div class="bg-black w-48 h-72 border border-gray-800 transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300">
+                    <div class="bg-white">
+                         <img class="w-24 ms-8" src="image/card-neymar.png" alt="" srcset="">
+                    </div>
+                    <div class="text-white text-center mt-10">
+                         <h1>Neymar jr</h1>
+                         <h1 class="text-gray-500">30 Goal . 60 Assist</h1>
+                    <button onclick="getElementById('demo-neymar').innerHTML= 'Neymar JR' " id="select-neymar" class="rounded-none button-selected w-24">Selected</button>
+                    
+                    </div>     
+                     </div> 
+
+                     <div class="bg-black w-48 h-72 border border-gray-800 transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300">
+                         <div class="bg-white">
+                              <img class="w-24 ms-8" src="image/card-mbappe.png" alt="" srcset="">
+                         </div>
+                         <div class="text-white text-center mt-10">
+                              <h1>Mbappe</h1>
+                              <h1 class="text-gray-500">20 Goal . 46 Assist</h1>
+                         <button onclick="getElementById('demo-mbappe').innerHTML= 'Mbappe' " id="selec-mbappe" class="rounded-none button-selected w-24">Selected</button>
+                         
+                         </div>     
+                          </div> 
+
+                          <div class="bg-black w-48 h-72 border border-gray-800 transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300">
+                              <div class="bg-white">
+                                   <img class="w-24 ms-8" src="image/card-renato.png" alt="" srcset="">
+                              </div>
+                              <div class="text-white text-center mt-10">
+                                   <h1>Retano</h1>
+                                   <h1 class="text-gray-500">36 Goal . 46 Assist</h1>
+                              <button onclick="getElementById('demo-retano').innerHTML= 'Retano' " id="select-soler" class="rounded-none button-selected w-24">Selected</button>
+                              
+                              </div>     
+                               </div> 
+
+                               <div class="bg-black w-48 h-72 border border-gray-800 transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300">
+                                   <div class="bg-white">
+                                        <img class="w-24 ms-8" src="image/card-soler.png" alt="" srcset="">
+                                   </div>
+                                   <div class="text-white text-center mt-10">
+                                        <h1>Soler</h1>
+                                        <h1 class="text-gray-500">15 Goal . 50 Assist</h1>
+<buttonn onclick="getElementById('demo-soler').innerHTML= 'Soler' " id="select-soler" class="rounded-none button-selected w-24">Selected</button>
+                                   
+                                   </div>     
+                                    </div> 
+
+                                    <div class="bg-black w-48 h-72 border border-gray-800 transition ease-in-out duration-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300">
+                                        <div class="bg-white">
+                                             <img class="w-24 ms-8" src="image/card-vitinha.png" alt="" srcset="">
+                                        </div>
+                                        <div class="text-white text-center mt-10">
+                    <h1>Vitinha </h1>
+                                             <h1 class="text-gray-500">36 Goal . 46 Assist</h1>
+  <button onclick="getElementById('demo-vitinha').innerHTML= 'Vitinha' " id="select-vitinha" class="rounded-none button-selected w-24">Selected</button>
+                                        
+                                        </div>     
+                                         </div> 
+   </div>
+
+<div>
+<div class="bg-black text-white w-80 ms-12 h-84 ">
+     <h1 class="text-center text-lg font-bold">Selected -V</h1>
+
+  <div  class="p-6 font-bold ">
+          <p>1. <span id="demo-messi"></span></p>
+          <br>
+          <p>2. <span id="demo-neymar"></span></p>
+          <br>
+          <p>3. <span id="demo-mbappe"></span></p>
+          <br>
+          <p>4. <span id="demo-retano"></span></p>
+          <br>
+          <p>5. <span id="demo-soler"></span></p>
+          <br>
+          <p>6. <span id="demo-vitinha"></span></p>
+
+
+  </div>
+</div>
+
+<div class="bg-black text-white w-80  ms-12   mt-5">
+<h1 class="text-center text-lg font-bold"> Budget</h1>
+
+<div class="p-6 font-bold ">
+<p>Per player <span><input id="per-player" class="w-40 text-black" type="text"></span></p>
+<br>
+<button id="calculate-1" class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 w-64 ms-2">Calculate</button>
+<br>
+<h1 class="mt-5 ">Player Expenses  $ <span id="player-expenses"></span></h1>
+<br>
+<p>Manager <span><input id="manager" class="w-40 text-black" type="text"></span></p>
+<br>
+<p>coach <span><input id="coach" class="w-40 text-black" type="text"></span></p>
+<br>
+<button id="calculate-2" class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 w-64 ms-2">Calculate</button>
+
+<p class="mt-5">Total <span><input id="total" class="w-40 text-black" type="text"></span></p>
+
+
+  </div>
+</div>
+
+</div>
+
+
+   
+</div>
+
+</section>
+</main>
+
+
+ 
+<script src="JavaScript/imageChange.js"></script>
+<script src="JavaScript/selected.js"></script>
+<script src="JavaScript/budget.js"></script>
+</body>
+</html>

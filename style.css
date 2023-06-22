@@ -1,0 +1,21 @@
+body{
+     background-color: rgb(21,21,21);
+}
+
+.player-banner{
+     background-color: rgb(21,30,45);
+     width: 680px;
+     height: 450px;
+}
+.players-img{
+     margin-top: 65px;
+     
+     
+} 
+.players-name{
+     color:rgb(206,23,61) ;
+     
+}
+.button-selected{
+     background-color: rgb(57, 98, 156);
+}
